@@ -77,6 +77,8 @@ Key Steps
 	•	Regulon activity per cell (reg.per.cell).
 	•	Regulon-target relationships (reg.per.gene).
 	•	Clean and format results for R-based analyses.
+        •       A helper script `pyscenic_pipeline.py` runs this workflow on MAGIC-imputed data.
+        •       The script includes default paths for the CRC organoid example and can be run without arguments.
 	3.	GRN Construction:
 	•	Convert pySCENIC results into an edge list for GRN visualization and modeling.
 	4.	Pseudo-Time Analysis:
